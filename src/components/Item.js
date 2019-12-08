@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Item extends Component {
-  render() {
-    return(
-      <div>
-        {this.props.name}: {this.props.quantity}
-      </div>
-    )
-  }
-}
+const Item = props => (
+  <div>
+  {
+    props.items.map((item,index) =>
+      <p key={index}>{item}</p>)
+    }
+  </div>
+)
 
 export default Item;
