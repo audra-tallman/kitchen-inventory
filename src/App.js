@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import InventoryList from './containers/InventoryList';
+import Inventory from './components/Inventory';
 
 function App() {
   return (
     <div className="App">
-      <InventoryList />
+      <Inventory />
     </div>
   );
 }

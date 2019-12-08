@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Item from './Item.js'
 
-class AddItemForm extends Component{
+class Inventory extends Component{
   constructor(props) {
       super(props);
       this.state = {
@@ -9,7 +9,6 @@ class AddItemForm extends Component{
         items: [],
       };
     }
-
 
   OnChange = (event) => {
     this.setState({
@@ -44,4 +43,4 @@ class AddItemForm extends Component{
   }
 }
 
-export default AddItemForm;
+export default Inventory;
