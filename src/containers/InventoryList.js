@@ -6,7 +6,6 @@ class InventoryList extends Component {
     return(
       <div className="list">
       These are the Items currently in your kitchen:
-
       </div>
     )
   }
